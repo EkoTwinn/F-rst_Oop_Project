@@ -1,9 +1,8 @@
 from item import Item
 from phone import Phone
 
-item1 = Item("Phone", 100, 1)
-
+item1 = Item("Emir",100)
 
 item1.name = "OtherItem"
 
-print(item1._name)
+print(item1.name)
