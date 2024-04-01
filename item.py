@@ -21,10 +21,11 @@ class Item:
         """Returns the name of the item."""
         return self._name
         
+    @name.setter
+    def name(self, value):
+        self.__name = value
 
 
-
-    
     def calculate_total_price(self):
         return self.price * self.quantity
         
